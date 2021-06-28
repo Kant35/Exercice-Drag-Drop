@@ -1,0 +1,36 @@
+*{
+	margin: 0;
+	padding: 0;
+	outline: none;
+	box-sizing: border-box;
+}
+html{
+	font-size: 100%;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+body{
+	color: #333;
+	font-size: 1em;
+}
+ul,ol{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+
+#grabCube{
+	width: 150px;
+	height: 150px;
+	background-color: #0f0;
+	position:absolute;
+	left: 0;
+	top: 0;
+}
+.dragOn{
+	box-shadow: 0 0 10px 0 #000;
+}
